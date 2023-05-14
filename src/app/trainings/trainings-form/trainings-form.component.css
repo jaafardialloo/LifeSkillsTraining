@@ -1,0 +1,14 @@
+.part {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  gap: 5rem;
+  margin: 6rem;
+  background: white;
+}
+.main-form {
+  display: flex;
+}
