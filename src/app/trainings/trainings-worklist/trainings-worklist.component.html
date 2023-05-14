@@ -1,0 +1,18 @@
+<div class="main-worklist">
+  <div>
+    <div>
+      <h1>Trainings</h1>
+    </div>
+    <div>
+      <button (click)="goToFormTraining()">Add</button>
+      <button>delete</button>
+    </div>
+  </div>
+  <ag-grid-angular
+    style="width: 100%; height: 500px;"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [gridOptions]="gridOptions">
+  </ag-grid-angular>
+</div>
